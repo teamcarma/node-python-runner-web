@@ -1,13 +1,21 @@
 {
 
     "name": "python-runner-web",
-    "description": "Web application that allows you to run python remotely.",
-    "version": "1.0.0",
+    "description": "Web server that allows you to run python remotely.",
+    "version": "1.0.1",
 
     "author": {
         "name"  : "Oscar Brito",
         "url"   : "https://twitter.com/aetheon"
     },
+
+    "keywords": [
+        "python",
+        "bridge",
+        "server",
+        "shell",
+        "carma",
+    ],
 
     "licenses": [
         {
