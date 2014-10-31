@@ -1,7 +1,6 @@
 "use strict";
 
-var _       = require("lodash"),
-    http    = require('http'),
+var http    = require('http'),
     Python  = require("python-runner");
 
 
