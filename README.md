@@ -61,7 +61,7 @@ server.start();
 
 ```shell
 
-npm install python-runner-web -g
+sudo npm install python-runner-web -g
 
 ```
 

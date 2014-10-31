@@ -1,4 +1,4 @@
-"use strict";
+#!/usr/bin/env node
 
 var argv 		= require('argv'),
 	PythonWeb 	= require("../index");
