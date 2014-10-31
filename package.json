@@ -2,7 +2,7 @@
 
     "name": "python-runner-web",
     "description": "Web application that allows you to run python remotely.",
-    "version": "0.1.0",
+    "version": "1.0.0",
 
     "author": {
         "name"  : "Oscar Brito",
@@ -39,7 +39,7 @@
     },
 
     "bin": {
-        "python-runner-web": "bin/subtitler.bin.js"
+        "python-runner-web": "bin/server.js"
     }
 
 }
