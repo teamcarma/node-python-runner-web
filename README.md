@@ -4,13 +4,15 @@
 *Supported by*:
 
 [![Carma](https://raw.githubusercontent.com/teamcarma/node-python-runner/master/assets/banner.png)](https://carmacarpool.com/)
+
 [![Carma IOS](https://raw.githubusercontent.com/teamcarma/node-python-runner/master/assets/ios.png)](https://carmacarpool.com/ios)
+
 [![Carma Android](https://raw.githubusercontent.com/teamcarma/node-python-runner/master/assets/android.png)](https://carmacarpool.com/android)
 
 
 
-A web server that executes the requested python code. Just POST your python code against the Server 
-endpoint and get the stdout of its execution.
+A web server that executes python code by request. Just POST your python code against the Server 
+and get the stdout of its execution.
 
 Also, you can use this as a library to initialize the server when you feel to.
 
@@ -26,7 +28,6 @@ will be executed.*
 ```shell
 
 npm install python-runner-web
-
 
 ```
 
@@ -64,7 +65,6 @@ server.start();
 
 npm install python-runner-web -g
 
-
 ```
 
 ```shell
@@ -89,7 +89,7 @@ Usage: server.js [options]
 ```shell
 
 > python-runner-web -p 8080
-server listening to '8080'' and set to run 'python'
+server listening to '8080' and set to run 'python'
 
 
 ```

@@ -96,7 +96,7 @@ var Server = function(options){
          */
         start: function(){
             server.listen(options.port);
-            console.log("server listening to '" + options.port + "'' and set to run '" + options.pythonBin + "'");
+            console.log("server listening to '" + options.port + "' and set to run '" + options.pythonBin + "'");
         },
 
         /**
