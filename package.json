@@ -1,0 +1,45 @@
+{
+
+    "name": "python-runner-web",
+    "description": "Web application that allows you to run python remotely.",
+    "version": "0.1.0",
+
+    "author": {
+        "name"  : "Oscar Brito",
+        "url"   : "https://twitter.com/aetheon"
+    },
+
+    "licenses": [
+        {
+          "type": "MIT",
+          "url": ""
+        }
+    ],
+
+    "repository" : {
+        "type"  : "git",
+        "url"   : "git@github.com:teamcarma/node-python-runner-web.git"
+    },
+
+    "devDependencies": {
+    },
+
+    "dependencies": {
+        "python-runner" : "*",
+        "argv": "~0.0.2"
+    },
+
+    "main": "index.js",
+
+    "engines": {
+        "node": ">=0.10.2"
+    },
+
+    "scripts": {
+    },
+
+    "bin": {
+        "python-runner-web": "bin/subtitler.bin.js"
+    }
+
+}
