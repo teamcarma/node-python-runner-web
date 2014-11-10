@@ -61,7 +61,7 @@ var Server = function(options){
 
                         /// Log execution
                         var timeSec = (new Date().getTime() - date.getTime()) / 1000;
-                        console.log(options.pythonBin + " executed on " + timeSec + " seconds");
+                        console.log(options.pythonBin + " executed in " + timeSec + " seconds");
 
                     });
 
