@@ -2,7 +2,7 @@
 
     "name": "python-runner-web",
     "description": "Web server that allows you to run python remotely.",
-    "version": "1.0.4",
+    "version": "1.0.5",
 
     "author": {
         "name"  : "Oscar Brito",

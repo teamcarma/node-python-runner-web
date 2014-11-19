@@ -34,6 +34,9 @@ var Server = function(options){
 
                 var date = new Date();
 
+                /// Log begining of execution
+                console.log(options.pythonBin + " executing");
+
                 Python.exec(
                     data, {
                         bin: options.pythonBin,
